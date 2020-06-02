@@ -7,7 +7,7 @@
           <ul class="uk-navbar-nav">
               <li><a href="#modal-full" uk-toggle><span uk-icon="icon: table"></span></a></li>
               <li>
-                <a href="/">Strapi Blog
+                <a href="/">Directech Blog
                 </a>
               </li>
           </ul>
@@ -28,9 +28,10 @@
         <div class="uk-modal-dialog">
             <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
             <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
-                <div class="uk-background-cover" style="background-image: url('https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3308&q=80 3308w');" uk-height-viewport></div>
+                <div class="uk-background-cover" style="background-image: url('https://www.directech.ca/img/mac_it_sec.jpg');" uk-height-viewport></div>
                 <div class="uk-padding-large">
-                    <h1 style="font-family: Staatliches;">Strapi blog</h1>
+                    <img src="https://www.directech.ca/img/logo-dt.png">
+                    <h2>Helping small businesses and solopreneurs get the best of IT...  One blog article at a time.</h2>                    
                     <div class="uk-width-1-2@s">
                         <ul class="uk-nav-primary uk-nav-parent-icon" uk-nav>
                           <li v-for="category in categories">
@@ -39,7 +40,7 @@
                           </li>
                         </ul>
                     </div>
-                    <p class="uk-text-light">Built with strapi</p>
+                    <p class="uk-text-light">Pssst! If you LOVE coffee as much as we do...  <br />Donate to our <a href=""><b>Half & Half</b></a> initiative.</p>
                 </div>
             </div>
         </div>

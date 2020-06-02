@@ -3,7 +3,8 @@
 
     <div class="uk-section">
       <div class="uk-container uk-container-large">
-        <h1>Strapi blog</h1>
+        <h1>Directech</h1>
+        <h2>Helping small businesses and solopreneurs get the best of IT...  <br />One blog article at a time.</h2>
 
         <Articles :articles="articles"></Articles>
 
