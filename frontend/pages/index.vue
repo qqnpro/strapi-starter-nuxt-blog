@@ -3,7 +3,7 @@
 
     <div class="uk-section">
       <div class="uk-container uk-container-large">
-        <h1>Directech</h1>
+        <img src="https://www.directech.ca/img/DIRECTECH_logo.png">
         <h2>Helping small businesses and solopreneurs get the best of IT...  <br />One blog article at a time.</h2>
 
         <Articles :articles="articles"></Articles>
@@ -21,7 +21,17 @@ import Articles from '~/components/Articles'
 export default {
   data() {
     return {
+      title: 'Directech - Your Safety Net Against Malicious Web Content',
       articles: [],
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { hid: 'description', name: 'description', content: 'My custom description' }
+      ]
     }
   },
   components: {
