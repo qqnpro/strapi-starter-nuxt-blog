@@ -35,6 +35,10 @@ h1  {
   font-family: Staatliches;
 }
 
+.uk-navbar-nav .navbar-nav .nav-link {
+  color: #015089;
+}
+
 img:hover {
   opacity: 1;
   transition: opacity 0.25s cubic-bezier(0.39, 0.575, 0.565, 1);
